@@ -18,7 +18,7 @@ class graph{
         if(direction == 0){
             adj[v].push_back(u);
         }
-    }i
+    }
 
     void printAdjList(){
         for(auto i:adj){
