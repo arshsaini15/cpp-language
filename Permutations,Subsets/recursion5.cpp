@@ -5,7 +5,7 @@
 using namespace std;
 
 void backtrack(vector<vector<int>> &res, vector<int> nums, vector<bool> &vis, vector<int> &curr) {
-    if(nums.size() == curr.size()) {
+    if(curr.size() == nums.size()) {
         res.push_back(curr);
         return;
     }
